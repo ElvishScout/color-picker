@@ -1,0 +1,45 @@
+.color-picker {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.row {
+  height: 2rem;
+}
+
+.cell {
+  display: inline-block;
+  width: 1rem;
+  height: 2rem;
+  border: 1px solid white;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.cell-ltn {
+  width: 2rem;
+}
+
+.selected {
+  border: 2px solid black;
+}
+
+.color-value {
+  display: inline-block;
+  width: 12rem;
+  height: 2rem;
+  box-sizing: border-box;
+  font-family: monospace;
+  cursor: default;
+  font-size: 1rem;
+}
+
+.copy-button {
+  display: inline-block;
+  margin: 0;
+  width: 4rem;
+  height: 2rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
